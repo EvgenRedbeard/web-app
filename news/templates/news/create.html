@@ -1,0 +1,22 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}News on site{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Form for post adding</h1>
+        <form method="post" >
+            {% csrf_token %}
+            <p>{{ form.title}}</p>
+            <p>{{ form.intro}}</p>
+            <p>{{ form.whole_text}}</p>
+            <p>{{ form.created_date}}</p>
+
+            <button class="btn btn-success" type="submit">Add post</button>
+        </form>
+
+    </div>
+
+
+
+{% endblock %}

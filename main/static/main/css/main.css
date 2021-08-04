@@ -1,0 +1,75 @@
+body{
+    background: #3e7a09;
+}
+aside{
+    float: left;
+    background-color: #0c7a58;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: white;
+    border-right: 5px solid #7a200c;
+}
+aside ul a{
+    text-decoration: none;
+}
+/*aside a:hover{*/
+/*    color: cadetblue;*/
+/*}*/
+aside img{
+    width: 50px;
+    float: left;
+}
+aside .logo{
+    font-size: 25px;
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+
+}
+aside .logo a{
+    text-decoration: none;
+    color: inherit;
+}
+aside h3{
+    margin-top: 40px;
+    font-size: 35px;
+}
+aside ul{
+    list-style: none;
+}
+aside ul li{
+    display: block;
+    margin-top: 20px;
+    color: white;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover{
+    color: cadetblue;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+main .features{
+    color: white;
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+main h1{
+    font-size: 50px;
+}
+main .features p{
+    max-width: 600px;
+    margin: 20px auto;
+}
+.form-conrol{
+    width: 100%;
+}
+form{
+    margin: auto;
+    width: 700px;
+    margin-top: 50px;
+}
