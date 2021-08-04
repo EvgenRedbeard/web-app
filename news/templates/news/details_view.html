@@ -7,8 +7,8 @@
        <h1>{{ article.title }}</h1>
         <p>{{ article.created_date}}</p>
         <p>{{ article.whole_text}}</p>
-        <a href="{% url 'news-update' article.id %}" class="btn btn-danger">Update article</a>
-        <a href="{% url 'news-delete' article.id %}" class="btn btn-danger">Delete article</a>
+        <a href="{% url 'news-update' article.id %}" class="btn btn-danger">Update this article</a>
+        <a href="{% url 'news-delete' article.id %}" class="btn btn-danger">Delete this article</a>
     </div>
 
 
